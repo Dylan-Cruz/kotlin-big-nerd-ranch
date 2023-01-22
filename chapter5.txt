@@ -1,0 +1,2 @@
+The books exercises in chapter 5 are entirely in the REPL so there is no 
+project output. 
