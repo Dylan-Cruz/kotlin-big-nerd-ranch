@@ -27,8 +27,7 @@ private fun readBountyBoard(canTalkToBarbarians: Boolean = true) {
     println(obtainQuest(playerLevel, canTalkToBarbarians))
 }
 
-private fun obtainQuest(playerLevel: Int, canTalkToBarbarians: Boolean): String =
-    when (playerLevel) {
+private fun obtainQuest(playerLevel: Int, canTalkToBarbarians: Boolean): String = when (playerLevel) {
         1 -> "Meet Mr. Bubbles in the land of soft things."
         in 2..5 -> {
             // Check whether diplomacy is an option
