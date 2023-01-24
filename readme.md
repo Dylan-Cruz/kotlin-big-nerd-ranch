@@ -1,1 +1,1 @@
-bookmark: pg68 compile time constants
+bookmark: pg170 console input
